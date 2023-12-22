@@ -1,0 +1,20 @@
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 77%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(to bottom, rgb(147, 199, 159), rgb(64, 110, 69));
+}
+
+#image:hover #overlay {
+  opacity: 0.5;
+}
+
+#overlay .card-body {
+  opacity: 1;
+}
+
